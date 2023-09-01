@@ -1,0 +1,269 @@
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.navbar-brand{
+    font-size: larger;
+}
+
+.main-page{
+    background-image: url("https://img.freepik.com/premium-photo/beautiful-architecture-king-s-college-chapel-cambridge-uk_1339-135072.jpg");
+    background-size:cover ;
+    background-clip: initial;
+}
+
+.bg-glass{
+    background-color: hsla(0, 0%, 100%, 0.9) !important;
+    backdrop-filter: saturate(200%) blur(25px);
+    /* margin: 50px; */
+    padding: 10px;
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: 500px;
+  }
+
+.btn{
+    margin-left:55px;
+}
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  color: #000;
+}
+
+.student-profile .card {
+  border-radius: 10px;
+}
+
+.student-profile .card .card-header .profile_img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  /* margin: 4px auto; */
+  border: 10px solid #ccc;
+  border-radius: 50%;
+}
+
+.student-profile .card h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.student-profile .card p {
+  font-size: 16px;
+  color: #000;
+}
+
+.student-profile .table th,
+.student-profile .table td {
+  font-size: 14px;
+  padding: 5px 10px;
+  color: #000;
+}
+
+.contact-form-wrapper {
+    padding: 100px 0;
+    font-family: 'Comic Neue', cursive;
+    font-weight: bolder;
+    color: #000;
+    font-size: large;
+
+  }
+  
+  .contact-form {
+    padding: 30px 40px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    max-width: 400px;
+  }
+  
+  .contact-form textarea {
+    resize: none;
+  }
+  
+  .contact-form .form-input,
+  .form-text-area {
+    background-color: #f0f4f5;
+    height: 50px;
+    padding-left: 16px;
+  }
+  
+  .contact-form .form-text-area {
+    background-color: #f0f4f5;
+    height: auto;
+    padding-left: 16px;
+  }
+  
+  .contact-form .form-control::placeholder {
+    color: #aeb4b9;
+    font-weight: 500;
+    opacity: 1;
+  }
+  
+  .contact-form .form-control:-ms-input-placeholder {
+    color: #aeb4b9;
+    font-weight: 500;
+  }
+  
+  .contact-form .form-control::-ms-input-placeholder {
+    color: #aeb4b9;
+    font-weight: 500;
+  }
+  
+  .contact-form .form-control:focus {
+    border-color: #f33fb0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.07), 0 0 8px #f33fb0;
+  }
+  
+  .contact-form .title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .contact-form .description {
+    color: #aeb4b9;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .contact-form .submit-button-wrapper {
+    text-align: center;
+  }
+  
+  .contact-form .submit-button-wrapper input {
+    border: none;
+    border-radius: 4px;
+    background-color: #f23292;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 60px;
+    font-weight: 500;
+    letter-spacing: 2px;
+  }
+  
+  .contact-form .submit-button-wrapper input:hover {
+    background-color: #d30069;
+  }
+
+  
+/* Slider */
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+  
